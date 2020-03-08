@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dimgrey">#696969</color>
+    <color name="floralwhite">#FFFAF0</color>
+    <color name="black">#000000</color>
+    <color name="grey">#808080</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="text_blue">#6693ce</color>
+
+    <color name="color_main">#2ca2f9</color>
+    <!--<color name="btn_pressed_green_solid">#B6DA53</color>-->
+    <!--<color name="orange">#FFA500</color>-->
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="gray4">#FFEDEDED</color>
+
+    <color name="night_book_bg">#131e4d</color>
+
+    <color name="dark_orange">#ff4800</color>
+    <color name="lighter_orange">#ff6000</color>
+    <color name="dark_white">#fff3e1</color>
+    <color name="gray">#eeeeee</color>
+    <color name="red">#de3842</color>
+
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+
+    <color name="yellow_light">#FFF68F</color>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipelayout"
+    android:layout_width="match_parent"
+     android:orientation="vertical" 
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/drag_item_close_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        
+        android:orientation="horizontal" >
+        
+        <Button 
+             android:id="@+id/target"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="wrap_content" 
+             android:text="目标"/>
+     <Button 
+             android:id="@+id/task"
+                 android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="wrap_content" 
+             android:text="执行"/>
+      <Button 
+             android:id="@+id/clock_setting"
+                 android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="wrap_content" 
+             android:text="设置"/>
+<!--         <ImageView
+            android:id="@+id/clock_setting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:src="@drawable/bt_new_high" />
+
+        <ImageView
+            android:id="@+id/image_transfer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:paddingLeft="35dp"
+            
+            android:src="@drawable/bt_new_high" /> -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@color/yellow_light"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/image_mic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/mic_gray"
+            android:visibility="gone" />
+
+        <com.jacli.draglist_menu_view.note.DragListView.view.MyEnableEditText
+            android:id="@+id/note_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint=" 注意 300汉字以内"
+            android:minHeight="50dp"
+            android:padding="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

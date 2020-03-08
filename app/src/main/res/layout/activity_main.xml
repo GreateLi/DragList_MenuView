@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jacli.draglist_menu_view.MainActivity">
+
+    <com.jacli.draglist_menu_view.note.DragListView
+
+        android:id="@+id/listview"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="3dp"
+        android:background="@color/dark_slate_gray"
+        android:fadingEdge="none"
+
+
+        ></com.jacli.draglist_menu_view.note.DragListView>
+</LinearLayout>
